@@ -1,5 +1,5 @@
 # 1.6.1 introduces a memory leak ?
-FROM kpetrem/mqtt-exporter:1.11.2@sha256:a756613b9a4c9b386c308354d708af549e8dd115d98df815c58ac09320787e9a
+FROM kpetrem/mqtt-exporter:1.12.1@sha256:dca3255f35310f6ceb80ed1de94eebd1fe9def7aacaec4107fe37cdaa9eb3be0
 
 COPY --chmod=775 /rootfs/docker-entrypoint.sh /
 
